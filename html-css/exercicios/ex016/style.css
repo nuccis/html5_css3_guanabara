@@ -14,7 +14,7 @@ main{
     background-color: white;
     border-radius: 10px; /* definindo arredondamento de borda */
     box-shadow: 10px 10px 12px #c2b8b298; /* definindo sombra */
-    width: 600px;
+    width: 600px; /* definindo a largura do elemento*/
     padding: 10px; /* definindo borda interna */
     margin: auto; /* centralizando o elemento independente do tamanho da tela*/
 }
