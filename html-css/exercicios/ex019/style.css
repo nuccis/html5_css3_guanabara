@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é # (só pode 1 em uma mesma página
+    em HTML é class = em CSS é . (pode ter várias em uma mesma página)
+*/
+
+body {
+    background: linear-gradient(to bottom, #FAEDCA, #f2bf78cc);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 18px;
+    text-align: justify;
+}
+
+h1{
+    color: #FE5D26;
+}
+
+/*
+    h1#principal eu estou indicando o h1 que possui o id principal para essa formatação. 
+*/
+h1#principal{
+    color: #2274A5;
+    text-align: center;
+}
+
+h2{
+    color: #fc825a;
+}
+
+.basico{
+    color: #4DA1A9;
+}
+
+.intermediario{
+    color: #12929e;
+}
+
+.avançado{
+    color: #1b848d;
+}
+
+.destaque{
+    background-color: #F2C078;
+}
