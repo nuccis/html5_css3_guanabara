@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+            Seletores Personalizados
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-elemento
+            >  = filho direto
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /*Configuração geral do link*/
+        a{
+            color:brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /*Configuração do link quando ele já tiver sido visitado*/
+        a:visited{
+            color:chocolate;
+        }
+        /*Configuração do link quando passa o mouse por cima*/
+        a:hover{
+            text-decoration: underline;
+            color:darkred;
+        }
+        /*Configuração do link quando ele está ativo, quando for clicado nesse caso*/
+        a:active{
+            color:rgb(240, 170, 40);
+        }
+        
+        /* Pseudo-elemento. Ele irá interferir no conteúdo. Nesse caso logo depois do link*/
+        a::after{
+            content: " (link)";
+            font-size: 0.8em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
