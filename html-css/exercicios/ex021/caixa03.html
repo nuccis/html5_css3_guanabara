@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(240, 236, 181);
+            margin: 0px;
+        }
+
+        header{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 8px;
+        }
+
+        nav{
+            background-color: rgb(255, 195, 127);
+            padding: 3px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 8px;
+        }
+
+        article{
+            background-color: aliceblue;
+        }
+
+        article > aside{
+            background-color: aquamarine;
+        }
+
+        footer{
+            background-color: rgb(209, 126, 16);
+            color: white;
+            text-align: center;
+            padding: 1px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header> <!--Aqui é o cabeçalho do site-->
+        <h1>Meu site</h1>
+        <nav> <!--Aqui é o menu do site-->
+            <a href="#">Link01</a>
+            <a href="#">Link02</a>
+            <a href="#">Link03</a>
+            <a href="#">Link04</a>
+            <a href="#">Link05</a>
+        </nav>
+    </header>
+    <main> <!--Aqui é o conteúdo do site-->
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus iure amet praesentium, dolore, voluptas rem maiores sequi cum quisquam laborum at ullam voluptatum ut quam, doloribus molestiae nobis illo quae!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer> <!--Aqui é o rodapé do site-->
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+</body>
+</html>
