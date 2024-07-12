@@ -13,6 +13,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: #157145;
+}
+
 header{
     padding: 10px;
     background-image: linear-gradient(to bottom, #C2F8CB, #157145);
@@ -30,9 +35,13 @@ header > nav{
 }
 
 header > nav > a{
-    text-decoration: none;
     color: white;
     margin-right: 30px; /*espaçamento entre os links*/
+}
+
+header > nav > a:hover{
+    text-decoration: underline;
+    color: rgb(201, 244, 208);
 }
 
 main{
@@ -53,7 +62,7 @@ main > article > section > h2{
     font-size: 20px;
 }
 
-main > article > section#historia{
+section#historia{
     padding: 20px 20px 0px 20px;
 }
 
