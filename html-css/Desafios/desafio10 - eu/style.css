@@ -15,7 +15,8 @@ body{
 
 a{
     text-decoration: none;
-    color: #157145;
+    color: white;
+    font-weight: bold;
 }
 
 header{
@@ -35,7 +36,7 @@ header > nav{
 }
 
 header > nav > a{
-    color: white;
+    font-weight: normal;
     margin-right: 30px; /*espaçamento entre os links*/
 }
 
@@ -47,7 +48,6 @@ header > nav > a:hover{
 main{
     width: 840px;
     margin: auto;
-    border: 2px solid salmon;
     background-color: white;
     box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.247);
 }
@@ -55,15 +55,38 @@ main{
 main > article > section > h1{
     font-family: 'idroid', sans-serif;
     font-size: 26px;
+    color: #157145;
 }
 
 main > article > section > h2{
     font-family: 'idroid', sans-serif;
     font-size: 20px;
+    color: #157145;
+}
+
+main > article > section a{
+    color: #157145;
 }
 
 section#historia{
     padding: 20px 20px 0px 20px;
 }
 
+.centralizado{
+    text-align: center;
+}
 
+.destaque{
+    background-image: linear-gradient(to right, #B3E9C7 10%, #effcf1 70%);
+}
+
+div#video{
+    padding: 20px;
+    background-color: #157145;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #157145;
+}
